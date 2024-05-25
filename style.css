@@ -1,0 +1,100 @@
+.body_container{
+    display: grid;
+padding: 10px;
+height: 100%;
+}
+.encabezado{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 50% 50%;
+}
+.logo{
+    width: 100%;
+    height: 150px;
+
+    display: grid;
+    grid-template-columns: 30% 50% ;
+    column-gap: 10px;
+}
+.carrito_compra{
+    width: 100%;
+    height: 150px;
+
+    text-align: right;
+    display: grid;
+    grid-template-columns: 50% 20%;
+    justify-content: end;
+
+}
+.contenedor-amarillo{
+    background: rgba(204, 180, 46, 0.904);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.buscador{
+    height: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+
+.contenu {
+    /* grow shrink basis */
+    flex: 1 0 auto;
+  }
+
+  .contenu p {
+    padding: 5vw 10vw;
+    text-align: justify;
+  }
+  .telon{
+    background-image: url("./Telon 1.png") ;
+    display: grid;
+    
+  }
+
+.telon{
+    color: white;
+}
+.compras{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.cartelera{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    column-gap: 10px;
+}
+.pie{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+
+.menu div:hover{
+    color: black;
+    font-size: 20px;
+} 
+footer{
+    padding: 50px;
+}
+
+.show{
+    text-align: center;
+    background-color: rgba(206, 206, 206, 0.397);
+}
+.show:hover{
+    background-color: rgba(206, 206, 206, 0.651);
+
+}
+.tour{
+    text-align: center;
+}
+.telon{
+    text-align: center;
+    height: 650px;
+
+}
