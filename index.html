@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
   </head>
   <body>
@@ -12,15 +16,11 @@
       <div class="encabezado">
         <div class="logo">
           <div>
-            <img
-              style="height: 50px"
-              src="./menu imagen.png"
-              alt="Italian Trulli"
-            />
+            <i class="glyphicon glyphicon-align-justify"></i>
           </div>
-          <div>
+          <div style="padding: 0;">
             <img
-              style="height: 100px"
+              style="height: 150px"
               src="./logo club de comedia vip.png"
               alt="Italian Trulli"
             />
@@ -28,82 +28,65 @@
         </div>
         <div class="carrito_compra">
           <div>
-            <img
-              style="height: 50px"
-              src="./3144456.png"
-              alt="Italian Trulli"
-            />
+            <i class="glyphicon glyphicon-shopping-cart"></i>
           </div>
           <div>
-            <img
-              style="height: 50px"
-              src="./1077114.png"
-              alt="Italian Trulli"
-            />
+            <i class="glyphicon glyphicon-user"></i>
           </div>
         </div>
       </div>
       <div class="contenedor-amarillo">
-        <div style="margin: 20px 0 auto" class="buscador">
-          <input type="search" />
+        <div class="buscador">
+          <div>
+            <i class="glyphicon glyphicon-search"></i>
+            <input style="border-radius:15px;" type="search" />
+          </div>
         </div>
       </div>
       <div class="inicio">
         <h1>inicio</h1>
       </div>
       <div class="telon">
-        <div>
-          <h1>El Mejor Sitio Para Programarte En Comedia</h1>
-          <h2>Comedia Colombiana</h2>
+        <div class="texto-principal">
+          <h1 style="font-size:60px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">El Mejor Sitio Para Programarte En Comedia</h1>
+          <h2 style="font-size:50px;">Comedia Colombiana</h2>
         </div>
-        <div>
-          <button class="compras">Compra tus entradas</button>
+        <div class="boton-principal">
+          <button class="compras"> Compra tus entradas 
+          <i class="glyphicon glyphicon-shopping-cart"></i>
+        </button>
         </div>
       </div>
 
       <div class="tour">
         <div>
-          <h1>TOUR EJE CAFETERO</h1>
+          <!-- font famiuli para cambiar tipo de textop -->
+          <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">TOUR EJE CAFETERO</h1>
         </div>
         <div style="width: 100%; align-items: center">
           <hr
             class="rounded"
-            style="width: 80px; background-color: darkgoldenrod; height: 2px"
+            style="width: 150px; background-color: rgb(235, 189, 74); height: 3px"
           />
         </div>
         <div>
-          <h1>15, 16 Y 17 DE MAYO DE 2024</h1>
+          <h2>15, 16 Y 17 DE MAYO DE 2024</h2>
         </div>
       </div>
       <div class="cartelera">
         <div class="armania">
-          <img
-            style="width: 100%; height: auto"
-            src="./DLAYER ARMENIA.jpg"
-            alt=""
-          />
           <div class="show">
             <h1>show</h1>
             <p>1 producto</p>
           </div>
         </div>
         <div class="pereira">
-          <img
-            style="width: 100%; height: auto"
-            src="./flayer pereira tour Eje.jpg"
-            alt=""
-          />
           <div class="show">
             <h1>show</h1>
             <p>1 producto</p>
           </div>
         </div>
         <div class="manizales">
-          <img
-            style="width: 100%; height: auto"
-            src="./flayer comedia manizales 17 DE MAYO MANIZALES.jpg"
-            alt=""
-          />
           <div class="show">
             <h1>show</h1>
             <p>1 producto</p>
@@ -118,7 +101,9 @@
             <div style="padding: 10px">Contacto</div>
           </div>
           <div style="text-align: center">
-            <h2>facebook &nbsp &nbsp instagream</h2>
+           
+            <h2>  <i class="fa fa-facebook">&nbspfacebook</i> &nbsp&nbsp <i class="fa fa-instagram">&nbsp instagream</i></h2>
+          
           </div>
           <div style="text-align: end">
             <img
